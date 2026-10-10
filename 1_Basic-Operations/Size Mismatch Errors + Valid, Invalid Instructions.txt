@@ -1,0 +1,20 @@
+What is the difference in following instuctions?
+mov ax, [num1]
+mov al, [num1]
+add ax, [num1]
+add al, [num1]
+mov [num1], ax
+mov ax, num1
+mov ax, [num1]
+
+Invalid Instruction:
+mov [mem], [mem]
+add [mem], [mem]
+
+Ambiguous Instructions:
+What will be the operation size in following instructions?
+mov [num1], 5
+mov ax, 5	
+
+mov byte[num1], 5
+mov word[num1], 5
